@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wildcat", "Wildcat\Wildcat.csproj", "{EF4E20EF-A1B1-44AB-AD3D-C95AE42C699A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23059D14-68E8-4A2A-8B5C-A97ED1D48303}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Wildcat.Db", "Wildcat.Db\Wildcat.Db.sqlproj", "{B7940684-995A-4248-87C2-F3D7865DCDF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4E20EF-A1B1-44AB-AD3D-C95AE42C699A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4E20EF-A1B1-44AB-AD3D-C95AE42C699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4E20EF-A1B1-44AB-AD3D-C95AE42C699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4E20EF-A1B1-44AB-AD3D-C95AE42C699A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7940684-995A-4248-87C2-F3D7865DCDF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA31EC2-FDAB-40E5-A04C-20E6C1853A28}
+	EndGlobalSection
+EndGlobal

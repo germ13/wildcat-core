@@ -1,0 +1,6 @@
+﻿CREATE TABLE [access].[Location]
+(
+	[Code] NVARCHAR(4) NOT NULL PRIMARY KEY,
+	[Details] NVARCHAR(64) NULL,
+	[IsActive] BIT NOT NULL DEFAULT(1)
+)

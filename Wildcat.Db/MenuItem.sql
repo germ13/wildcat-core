@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[MenuItem]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+	[ParentId] UNIQUEIDENTIFIER DEFAULT NULL,
+	[TeamName] NVARCHAR(128) NOT NULL,
+	[MenuName] NVARCHAR(32) NOT NULL,
+	CONSTRAINT FK_MenuItem__MenuItem_Id FOREIGN KEY([Id]) REFERENCES [dbo].[MenuItem]([Id]),
+	CONSTRAINT FK_MenuItem__Team_TeamName FOREIGN KEY ([TeamName]) REFERENCES [access].[Team]([TeamName])
+)
